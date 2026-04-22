@@ -1,0 +1,244 @@
+{
+  "meta": {
+    "name": "Ranjan Kumar Nayak",
+    "role": "Data Engineer · NLP Researcher",
+    "tagline": "Data Engineer turned NLP Researcher.",
+    "summary": "19+ years spanning EDW, lakehouses, and information architecture across finance, telecom, insurance, retail, and CPG. Currently at IIIT Hyderabad, fine-tuning open-source LLMs for NL2SQL and data engineering applications.",
+    "location": "Hyderabad, India",
+    "email": "ranjan56cse@gmail.com",
+    "phone": "+91-7995560303",
+    "linkedin": "https://linkedin.com/in/ranjankn",
+    "github": "https://github.com/ranjan56cse",
+    "kaggle": "https://kaggle.com/ranjan56cse",
+    "huggingface": "https://huggingface.co/ranjan56cse"
+  },
+
+  "stats": [
+    { "number": "19+", "label": "Years Experience" },
+    { "number": "5",   "label": "Industries" },
+    { "number": "15+", "label": "Global Clients" },
+    { "number": "3",   "label": "Research Projects" }
+  ],
+
+  "tags": [
+    "NL2SQL", "LLM Fine-tuning", "RAG Pipelines",
+    "Enterprise EDW", "Data Modelling", "Information Architecture"
+  ],
+
+  "experience": [
+    {
+      "role": "Full-time Research Assistant / Part-time Student",
+      "company": "IIIT Hyderabad",
+      "location": "Hyderabad, India",
+      "period": "Jan 2026 – Present",
+      "type": "research",
+      "bullets": [
+        "Developing NL2SQL system for enterprise databases — schema linking, prompt engineering, RL-based fine-tuning on BIRD benchmark.",
+        "Built AspectForge: four-stage RAG pipeline with BM25/FAISS hybrid retrieval for multilingual (EN/DE) customer support.",
+        "Developed GPAD — CodeBERT-based AI-generated code detection with entropy-weighted attention and multi-task learning."
+      ]
+    },
+    {
+      "role": "Solution Consultant / Data Modeler / Technical Consultant",
+      "company": "Teradata",
+      "location": "Mumbai · Pune · Hyderabad · Sydney · Helsinki",
+      "period": "Apr 2011 – Oct 2025",
+      "type": "industry",
+      "bullets": [
+        "Designed large-scale data lakehouse for Asia's largest insurance provider (350M+ policyholders).",
+        "Led BCBS 239 compliance for Maybank Malaysia as Product Data Analyst, managing 8-member team.",
+        "Implemented EDW based on FSLDM for MIFID-II project at OP Financial, Finland.",
+        "Onsite ETL Lead at Westpac Australia — migrated ~1,800 Informatica jobs and 10,000+ scripts.",
+        "Led data platform consolidation at SC Johnson achieving 17% operational efficiency improvement.",
+        "Designed microservice-based data pipeline for P&G's 'One Consumer Place' central data warehouse.",
+        "Led predictive churn/retention models at Vodafone Australia."
+      ]
+    },
+    {
+      "role": "Data Analyst",
+      "company": "Wipro Technologies",
+      "location": "Kolkata, India",
+      "period": "May 2010 – Apr 2011",
+      "type": "industry",
+      "bullets": [
+        "Conducted Market Basket Analysis and Customer Segmentation; grew client base by 3–5% through targeted campaigns."
+      ]
+    },
+    {
+      "role": "Software Engineer",
+      "company": "Infosys Technologies Ltd.",
+      "location": "Pune, India",
+      "period": "Aug 2005 – Jun 2009",
+      "type": "industry",
+      "bullets": [
+        "Tech lead for Infomart project — standardized multi-source data for WellPoint enterprise data warehouse.",
+        "Built production support tool in VB/Oracle reducing code fix time by 15–20%.",
+        "Delivered reporting applications for Northwestern Mutual and Aetna's claim adjudication system."
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "Text2SQL for Enterprise Databases",
+      "status": "Ongoing",
+      "description": "NL2SQL system tailored for enterprise-grade databases — addressing schema complexity, ambiguity, and domain-specific query patterns. Covers prompt engineering, schema linking, and RL-based fine-tuning on the BIRD benchmark.",
+      "tags": ["Qwen3-8B", "BIRD Benchmark", "FastAPI", "PostgreSQL", "RL Fine-tuning", "Schema Linking"],
+      "links": [
+        { "label": "🔗 Live Demo", "url": "https://text2sql.dataglanz.com", "primary": true },
+        { "label": "GitHub", "url": "https://github.com/ranjan56cse/text2sql-research-interface", "primary": false }
+      ]
+    },
+    {
+      "title": "AspectForge — Multilingual RAG Pipeline",
+      "status": "Completed",
+      "description": "Four-stage RAG pipeline combining BM25/FAISS hybrid retrieval with aspect-aware reranking for multilingual (EN/DE) customer support response generation on ~28k support tickets.",
+      "tags": ["XLM-RoBERTa", "FAISS", "BM25", "Gemma-2-2B", "Multilingual NLP", "RAG"],
+      "links": [
+        { "label": "GitHub", "url": "https://github.com/ranjan56cse", "primary": false }
+      ]
+    },
+    {
+      "title": "GPAD — AI-Generated Code Detection",
+      "status": "Completed",
+      "description": "CodeBERT-based architecture incorporating entropy-weighted attention, stylometric features, and multi-task learning for binary and multi-class AI-generated code detection. Submitted to SemEval-2026 Task 13.",
+      "tags": ["CodeBERT", "PyTorch", "Multi-task Learning", "SemEval-2026", "Entropy Attention"],
+      "links": [
+        { "label": "GitHub", "url": "https://github.com/ranjan56cse", "primary": false }
+      ]
+    }
+  ],
+
+  "skills": {
+    "radar": [
+      { "label": "Data\nEngineering", "value": 98 },
+      { "label": "NLP /\nLLMs",       "value": 82 },
+      { "label": "Data\nModelling",   "value": 95 },
+      { "label": "Cloud &\nInfra",    "value": 76 },
+      { "label": "Information\nArchitecture", "value": 90 },
+      { "label": "ML\nResearch",      "value": 80 }
+    ],
+    "bars": {
+      "Data Eng": [
+        { "name": "Teradata / EDW",      "pct": 98, "color": "blue" },
+        { "name": "Snowflake",            "pct": 88, "color": "blue" },
+        { "name": "Spark / Databricks",   "pct": 85, "color": "blue" },
+        { "name": "Hive / Hadoop",        "pct": 80, "color": "blue" },
+        { "name": "Informatica PowerCenter","pct": 92, "color": "sky" },
+        { "name": "Data Modelling (FSLDM)","pct": 95, "color": "sky" },
+        { "name": "SQL / Python",         "pct": 90, "color": "sky" }
+      ],
+      "AI / NLP": [
+        { "name": "HuggingFace Transformers","pct": 85, "color": "orange" },
+        { "name": "LLM Fine-tuning / PEFT·LoRA","pct": 80, "color": "orange" },
+        { "name": "RAG Pipelines",        "pct": 82, "color": "orange" },
+        { "name": "NL2SQL / Text2SQL",    "pct": 85, "color": "orange" },
+        { "name": "PyTorch",              "pct": 78, "color": "indigo" },
+        { "name": "Scikit-Learn",         "pct": 80, "color": "indigo" },
+        { "name": "Sentence-Transformers / FAISS","pct": 78, "color": "indigo" }
+      ],
+      "Cloud & Infra": [
+        { "name": "AWS",                  "pct": 75, "color": "dark-o" },
+        { "name": "Docker / FastAPI",     "pct": 78, "color": "dark-o" },
+        { "name": "GitHub / CI-CD",       "pct": 80, "color": "dark-o" },
+        { "name": "Data Governance / MDM","pct": 90, "color": "indigo" },
+        { "name": "Data Cataloguing / Ontology","pct": 88, "color": "indigo" },
+        { "name": "BCBS 239 / MIFID-II", "pct": 85, "color": "indigo" }
+      ]
+    },
+    "badges": [
+      { "label": "Teradata",         "color": "#1557b0" },
+      { "label": "Snowflake",        "color": "#1557b0" },
+      { "label": "Spark",            "color": "#1557b0" },
+      { "label": "Databricks",       "color": "#1557b0" },
+      { "label": "Hive",             "color": "#1557b0" },
+      { "label": "Informatica",      "color": "#1557b0" },
+      { "label": "PyTorch",          "color": "#f56a00" },
+      { "label": "HuggingFace",      "color": "#f56a00" },
+      { "label": "PEFT / LoRA",      "color": "#f56a00" },
+      { "label": "RAG",              "color": "#f56a00" },
+      { "label": "NL2SQL",           "color": "#f56a00" },
+      { "label": "Scikit-Learn",     "color": "#f56a00" },
+      { "label": "FAISS",            "color": "#f56a00" },
+      { "label": "Sentence-BERT",    "color": "#f56a00" },
+      { "label": "NLTK / SpaCy",     "color": "#f56a00" },
+      { "label": "Python",           "color": "#2389d7" },
+      { "label": "SQL",              "color": "#2389d7" },
+      { "label": "FastAPI",          "color": "#2389d7" },
+      { "label": "Docker",           "color": "#2389d7" },
+      { "label": "AWS",              "color": "#c94f00" },
+      { "label": "Erwin Modeler",    "color": "#1e40af" },
+      { "label": "Data Governance",  "color": "#1e40af" },
+      { "label": "MDM",              "color": "#1e40af" },
+      { "label": "BCBS 239",         "color": "#1e40af" },
+      { "label": "MIFID-II",         "color": "#1e40af" },
+      { "label": "Weights & Biases", "color": "#2389d7" }
+    ]
+  },
+
+  "clients": [
+    {
+      "industry": "Banking & Finance", "icon": "🏦", "color": "#1557b0",
+      "clients": ["Maybank · Malaysia", "OP Financial Group · Finland", "Westpac · Australia"]
+    },
+    {
+      "industry": "Insurance", "icon": "🛡️", "color": "#f56a00",
+      "clients": ["LIC India", "WellPoint · USA", "Northwestern Mutual · USA", "Aetna · USA"]
+    },
+    {
+      "industry": "Telecom", "icon": "📡", "color": "#2389d7",
+      "clients": ["CelcomDigi · Malaysia", "Vodafone · Australia", "Optus · Australia"]
+    },
+    {
+      "industry": "Retail & CPG", "icon": "🛒", "color": "#c94f00",
+      "clients": ["Procter & Gamble", "SC Johnson", "Big W · Australia", "Sears Holdings · USA"]
+    },
+    {
+      "industry": "Manufacturing", "icon": "🏭", "color": "#1e40af",
+      "clients": ["TSMC · Taiwan"]
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "PGSSP (Part-Time)",
+      "school": "IIIT Hyderabad",
+      "period": "2024 – Present",
+      "location": "Hyderabad, India",
+      "detail": "NLP (Spring 2026) · Advanced NLP (Monsoon 2025) · Data Systems (Spring 2025) · Statistical Methods in AI (Spring 2024)",
+      "color": "blue"
+    },
+    {
+      "degree": "B.Tech — Computer Science & Engineering",
+      "school": "Odisha University of Technology and Research",
+      "period": "Graduated May 2005",
+      "location": "Bhubaneswar, India",
+      "detail": "Foundation in Computer Science, Data Structures, Algorithms, and Software Engineering.",
+      "color": "orange"
+    }
+  ],
+
+  "achievements": [
+    {
+      "type": "stat",
+      "number": "92.48",
+      "unit": "%ile",
+      "title": "GATE 2020 · CSE",
+      "body": "Conducted by IIT Delhi — top percentile in Computer Science & Engineering among thousands of national candidates."
+    },
+    {
+      "type": "icon",
+      "icon": "🎓",
+      "title": "Full-time Researcher · IIIT Hyderabad",
+      "body": "Transitioned from 19+ years of enterprise data engineering into applied NLP research — NL2SQL, LLM fine-tuning, and RAG systems.",
+      "style": "research"
+    },
+    {
+      "type": "icon",
+      "icon": "📜",
+      "title": "5 Industry Certifications",
+      "body": "Databricks · AWS Cloud Practitioner · Teradata 14 · AHIP (Part A & B) · LOMA 280",
+      "style": "cert"
+    }
+  ]
+}
