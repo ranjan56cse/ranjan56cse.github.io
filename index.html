@@ -273,7 +273,7 @@ function renderProjects(d){
       <div class="proj-title">${p.title}</div>
       <div class="proj-desc">${p.description}</div>
       <div class="proj-tags">${p.tags.map((t,j)=>`<span class="proj-tag${j>=p.tags.length-2?' o':''}">${t}</span>`).join('')}</div>
-      <div class="proj-links">${p.links.map(l=>`<a href="${l.url}" target="_blank" class="proj-link${l.primary?' primary':''}">${l.label}</a>`).join('')}</div>
+      <div class="proj-links">${p.links.filter(l=>l.label).map(l=>`<a href="${l.url}" target="_blank" class="proj-link${l.primary?' primary':''}">${l.label}</a>`).join('')}</div>
     </div>`).join('');
 }
 
