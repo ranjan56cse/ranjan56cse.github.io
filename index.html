@@ -241,7 +241,7 @@ function renderHero(d){
   const m=d.meta;
   document.getElementById('hero-content').innerHTML=`
     <div class="hero-eyebrow">${m.location} · Available for Collaborations</div>
-    <h1 class="hero-title">Data Engineer turned<br><em>NLP Researcher.</em></h1>
+    <h1 class="hero-title">Data Engineer turned<br><em>NLP Researcher</em></h1>
     <p class="hero-summary">${m.summary}</p>
     <div class="hero-tags">${d.tags.map(t=>`<span class="hero-tag">${t}</span>`).join('')}</div>
     <div class="hero-stats">
