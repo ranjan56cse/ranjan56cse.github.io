@@ -91,11 +91,11 @@
     },
     {
       "title": "AspectForge — Multilingual RAG Pipeline",
-      "status": "Completed",
+      "status": "Ongoing",
       "description": "Four-stage RAG pipeline combining BM25/FAISS hybrid retrieval with aspect-aware reranking for multilingual (EN/DE) customer support response generation on ~28k support tickets.",
       "tags": ["XLM-RoBERTa", "FAISS", "BM25", "Gemma-2-2B", "Multilingual NLP", "RAG"],
       "links": [
-        { "label": "GitHub", "url": "https://github.com/ranjan56cse", "primary": false }
+        { "_label": "GitHub", "url": "https://github.com/ranjan56cse", "primary": false }
       ]
     },
     {
@@ -104,7 +104,7 @@
       "description": "CodeBERT-based architecture incorporating entropy-weighted attention, stylometric features, and multi-task learning for binary and multi-class AI-generated code detection. Submitted to SemEval-2026 Task 13.",
       "tags": ["CodeBERT", "PyTorch", "Multi-task Learning", "SemEval-2026", "Entropy Attention"],
       "links": [
-        { "label": "GitHub", "url": "https://github.com/ranjan56cse", "primary": false }
+        { "_label": "GitHub", "url": "https://github.com/ranjan56cse", "primary": false }
       ]
     }
   ],
@@ -138,10 +138,10 @@
         { "name": "Sentence-Transformers / FAISS","pct": 70, "color": "indigo" }
       ],
       "Cloud & Infra": [
-        { "name": "AWS",                  "pct": 75, "color": "dark-o" },
-        { "name": "Docker / FastAPI",     "pct": 78, "color": "dark-o" },
-        { "name": "GitHub / CI-CD",       "pct": 80, "color": "dark-o" },
-        { "name": "Data Governance / MDM","pct": 90, "color": "indigo" }
+        { "name": "AWS",                  "pct": 65, "color": "dark-o" },
+        { "name": "FastAPI",     "pct": 50, "color": "dark-o" },
+        { "name": "GitHub / CI-CD",       "pct": 70, "color": "dark-o" },
+        { "name": "Data Governance / MDM","pct": 65, "color": "indigo" }
       ]
     },
     "badges": [
@@ -215,7 +215,7 @@
     {
       "type": "stat",
       "number": "92.48",
-      "unit": "%ile",
+      "unit": "%tile",
       "title": "GATE 2020 · CSE",
       "body": "Conducted by IIT Delhi — top percentile in Computer Science & Engineering among thousands of national candidates."
     },
