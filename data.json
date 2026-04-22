@@ -111,11 +111,11 @@
 
   "skills": {
     "radar": [
-      { "label": "Data\nEngineering", "value": 80 },
-      { "label": "NLP /\nLLMs",       "value": 80 },
-      { "label": "Data\nModelling",   "value": 80 },
-      { "label": "Cloud &\nInfra",    "value": 70 },
-      { "label": "Information\nArchitecture", "value": 85 },
+      { "label": "Data\nEngineering", "value": 70 },
+      { "label": "NLP /\nLLMs",       "value": 70 },
+      { "label": "Data\nModelling",   "value": 75 },
+      { "label": "Cloud &\nInfra",    "value": 60 },
+      { "label": "Information\nArchitecture", "value": 80 },
       { "label": "ML\nResearch",      "value": 60 }
     ],
     "bars": {
@@ -129,13 +129,13 @@
         { "name": "SQL / Python",         "pct": 70, "color": "sky" }
       ],
       "AI / NLP": [
-        { "name": "HuggingFace Transformers","pct": 85, "color": "orange" },
-        { "name": "LLM Fine-tuning / PEFT·LoRA","pct": 80, "color": "orange" },
-        { "name": "RAG Pipelines",        "pct": 82, "color": "orange" },
-        { "name": "NL2SQL / Text2SQL",    "pct": 85, "color": "orange" },
-        { "name": "PyTorch",              "pct": 78, "color": "indigo" },
-        { "name": "Scikit-Learn",         "pct": 80, "color": "indigo" },
-        { "name": "Sentence-Transformers / FAISS","pct": 78, "color": "indigo" }
+        { "name": "HuggingFace Transformers","pct": 60, "color": "orange" },
+        { "name": "LLM Fine-tuning / PEFT·LoRA","pct": 60, "color": "orange" },
+        { "name": "RAG Pipelines",        "pct": 60, "color": "orange" },
+        { "name": "NL2SQL / Text2SQL",    "pct": 40, "color": "orange" },
+        { "name": "PyTorch",              "pct": 70, "color": "indigo" },
+        { "name": "Scikit-Learn",         "pct": 65, "color": "indigo" },
+        { "name": "Sentence-Transformers / FAISS","pct": 70, "color": "indigo" }
       ],
       "Cloud & Infra": [
         { "name": "AWS",                  "pct": 75, "color": "dark-o" },
@@ -172,7 +172,7 @@
   "clients": [
     {
       "industry": "Banking & Finance", "icon": "🏦", "color": "#1557b0",
-      "clients": ["Maybank · Malaysia", "OP Financial Group · Finland", "Westpac · Australia", "Swedbank · Sweden (DataDNA Solution for Data Lineage and Metadata Analysis)"]
+      "clients": ["Maybank · Malaysia", "OP Financial Group · Finland", "Westpac · Australia", "Swedbank · Sweden <span style='font-size:.75em;opacity:.7'>(DataDNA Solution for Data Lineage and Metadata Analysis)</span>"]
     },
     {
       "industry": "Insurance", "icon": "🛡️", "color": "#f56a00",
@@ -188,7 +188,7 @@
     },
     {
       "industry": "Manufacturing", "icon": "🏭", "color": "#1e40af",
-      "clients": ["TSMC · Taiwan"]
+      "clients": ["TSMC · Taiwan (POC) "]
     }
   ],
 
