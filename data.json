@@ -111,22 +111,22 @@
 
   "skills": {
     "radar": [
-      { "label": "Data\nEngineering", "value": 98 },
-      { "label": "NLP /\nLLMs",       "value": 82 },
-      { "label": "Data\nModelling",   "value": 95 },
-      { "label": "Cloud &\nInfra",    "value": 76 },
-      { "label": "Information\nArchitecture", "value": 90 },
-      { "label": "ML\nResearch",      "value": 80 }
+      { "label": "Data\nEngineering", "value": 80 },
+      { "label": "NLP /\nLLMs",       "value": 80 },
+      { "label": "Data\nModelling",   "value": 80 },
+      { "label": "Cloud &\nInfra",    "value": 70 },
+      { "label": "Information\nArchitecture", "value": 85 },
+      { "label": "ML\nResearch",      "value": 60 }
     ],
     "bars": {
       "Data Eng": [
-        { "name": "Teradata / EDW",      "pct": 98, "color": "blue" },
-        { "name": "Snowflake",            "pct": 88, "color": "blue" },
-        { "name": "Spark / Databricks",   "pct": 85, "color": "blue" },
-        { "name": "Hive / Hadoop",        "pct": 80, "color": "blue" },
-        { "name": "Informatica PowerCenter","pct": 92, "color": "sky" },
-        { "name": "Data Modelling (FSLDM)","pct": 95, "color": "sky" },
-        { "name": "SQL / Python",         "pct": 90, "color": "sky" }
+        { "name": "Teradata / EDW",      "pct": 85, "color": "blue" },
+        { "name": "Snowflake",            "pct": 50, "color": "blue" },
+        { "name": "Spark / Databricks",   "pct": 60, "color": "blue" },
+        { "name": "Hive / Hadoop",        "pct": 50, "color": "blue" },
+        { "name": "Informatica PowerCenter","pct": 85, "color": "sky" },
+        { "name": "Data Modelling (FSLDM)","pct": 80, "color": "sky" },
+        { "name": "SQL / Python",         "pct": 70, "color": "sky" }
       ],
       "AI / NLP": [
         { "name": "HuggingFace Transformers","pct": 85, "color": "orange" },
@@ -141,16 +141,13 @@
         { "name": "AWS",                  "pct": 75, "color": "dark-o" },
         { "name": "Docker / FastAPI",     "pct": 78, "color": "dark-o" },
         { "name": "GitHub / CI-CD",       "pct": 80, "color": "dark-o" },
-        { "name": "Data Governance / MDM","pct": 90, "color": "indigo" },
-        { "name": "Data Cataloguing / Ontology","pct": 88, "color": "indigo" },
-        { "name": "BCBS 239 / MIFID-II", "pct": 85, "color": "indigo" }
+        { "name": "Data Governance / MDM","pct": 90, "color": "indigo" }
       ]
     },
     "badges": [
       { "label": "Teradata",         "color": "#1557b0" },
       { "label": "Snowflake",        "color": "#1557b0" },
       { "label": "Spark",            "color": "#1557b0" },
-      { "label": "Databricks",       "color": "#1557b0" },
       { "label": "Hive",             "color": "#1557b0" },
       { "label": "Informatica",      "color": "#1557b0" },
       { "label": "PyTorch",          "color": "#f56a00" },
@@ -168,18 +165,14 @@
       { "label": "Docker",           "color": "#2389d7" },
       { "label": "AWS",              "color": "#c94f00" },
       { "label": "Erwin Modeler",    "color": "#1e40af" },
-      { "label": "Data Governance",  "color": "#1e40af" },
-      { "label": "MDM",              "color": "#1e40af" },
-      { "label": "BCBS 239",         "color": "#1e40af" },
-      { "label": "MIFID-II",         "color": "#1e40af" },
-      { "label": "Weights & Biases", "color": "#2389d7" }
+      { "label": "Data Governance",  "color": "#1e40af" }
     ]
   },
 
   "clients": [
     {
       "industry": "Banking & Finance", "icon": "🏦", "color": "#1557b0",
-      "clients": ["Maybank · Malaysia", "OP Financial Group · Finland", "Westpac · Australia"]
+      "clients": ["Maybank · Malaysia", "OP Financial Group · Finland", "Westpac · Australia", "Swedbank · Sweden (DataDNA Solution for Data Lineage and Metadata Analysis)"]
     },
     {
       "industry": "Insurance", "icon": "🛡️", "color": "#f56a00",
